@@ -9,7 +9,7 @@ def bubble_sort(list_1):              #冒泡排序
                 list_1[i+1] = k
     return list_1
 
-data =xd.open_workbook (r"C:\Users\14588\Documents\Tencent Files\1458836984\FileRecv\MobileFile\2019.xls")     #打开excel表所在路径
+data =xd.open_workbook (r"2019.xls")     #打开excel表所在路径
 sheet = data.sheet_by_name('Sheet1')  #读取数据，以excel表名来打开
 d = []
 for r in range(sheet.nrows):          #将表中数据按行逐步添加到列表中，最后转换为list结构
